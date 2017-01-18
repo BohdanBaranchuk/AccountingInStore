@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorinterval="30" status="info" strict="true">
+    <Properties>
+        <Property name="filename">logs/app.log</Property>
+    </Properties>
+    <Appenders>
+        <Appender type="Console" name="Console">
+            <Layout type="PatternLayout" pattern="%d %p [%t] %m%n" />
+        </Appender>
+
+        <RollingFile name="RollingFile" fileName="${filename}"
+                     filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d | %p | %c{1.} | [%t] %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/> <!-- Rotated everyday -->
+                <SizeBasedTriggeringPolicy size="50 MB"/> <!-- Or every 50 MB -->
+            </Policies>
+        </RollingFile>
+        <!--
+        It will look like that:
+        2017-01-13 08:53:27,071 | DEBUG | c.j.h.M.Controller | [AWT-EventQueue-0] Run application
+        -->
+
+    </Appenders>
+    <Loggers>
+        <Logger name="com.atom.hibernateSwing.MVC.Controller" level="debug"/>
+        <Logger name="com.atom.hibernateSwing.util.HibernateUtil" level="debug"/>
+        <Root level="info"> <!-- We log only info -->
+            <AppenderRef ref="Console" /> <!-- To console -->
+            <AppenderRef ref="RollingFile" /> <!-- And to a rotated file -->
+        </Root>
+    </Loggers>
+</Configuration>
