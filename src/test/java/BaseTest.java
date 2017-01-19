@@ -39,9 +39,11 @@ public class BaseTest {
     @Test (timeout = 18000)
     public void createGoodAndSaveIt()
     {
-        String nameGood = "Baraban31";        // change the name for each iteration
-        String nameSupplier = "Rozetka31";    // change the name for each iteration
-        long prId = 1031;                     // change the ID for each iteration
+        String nameGood = "Elizabet";           // change the name for each iteration
+        String nameSupplier = "Margo";          // change the name for each iteration
+        long prId = 1036;                       // change the ID for each iteration
+
+        String imgPath = "C:\\test.png";        // the local address of the test image file (please, change it for your own real path)
 
         Products myPr = new Products();
 
@@ -54,7 +56,7 @@ public class BaseTest {
         myPr.setTimes(new ProductsDate());
         myPr.getDescription().add("Единичный екземпляр");
 
-        myPr.addImage(createImage("C:\\test.png"));
+        myPr.addImage(createImage(imgPath));
 
         Price price =createPrice();
         myPr.setPrice(price);
@@ -84,7 +86,7 @@ public class BaseTest {
         assertEquals(readPr,myPr);
 
 
-        session.getTransaction().commit();
+        session.getTransaction().rollback();
 
     }
 
@@ -135,26 +137,10 @@ public class BaseTest {
         List<Products> products = session.createCriteria(Products.class).list();
     }
 
-
     @After
     public void closeConnection()
     {
         session.close();
         sessionFactory.close();
     }
-
-
-    /*
-    @Ignore
-    @Test(timeout = 1000)
-    public void infinity() {
-        while (true);
-    }
-
-    @Test(expected = NumberFormatException.class)
-    public void testToHexStringWrong() {
-        Integer.parseInt(null);
-    }
-
-    */
 }

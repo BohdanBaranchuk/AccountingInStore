@@ -714,3 +714,93 @@ org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.atom.hibernate
 2017-01-19 16:33:58,520 | INFO | o.h.o.c.access | [Time-limited test] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cac199a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2017-01-19 16:33:59,890 | WARN | o.h.o.deprecation | [Time-limited test] HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
 2017-01-19 16:34:00,140 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/testdb]
+2017-01-19 17:23:07,023 | INFO | o.h.Version | [Time-limited test] HHH000412: Hibernate Core {5.2.2.Final}
+2017-01-19 17:23:07,048 | INFO | o.h.c.Environment | [Time-limited test] HHH000206: hibernate.properties not found
+2017-01-19 17:23:07,050 | INFO | o.h.c.Environment | [Time-limited test] HHH000021: Bytecode provider name : javassist
+2017-01-19 17:23:07,819 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation Configuration loaded
+2017-01-19 17:23:07,839 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation serviceRegistry created
+2017-01-19 17:23:07,871 | INFO | o.h.a.c.Version | [Time-limited test] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-01-19 17:23:07,993 | WARN | o.h.o.c.pooling | [Time-limited test] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-01-19 17:23:08,015 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/testdb]
+2017-01-19 17:23:08,016 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001001: Connection properties: {user=postgres, password=****}
+2017-01-19 17:23:08,016 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001003: Autocommit mode: false
+2017-01-19 17:23:08,023 | INFO | o.h.e.j.c.i.DriverManagerConnectionProviderImpl | [Time-limited test] HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-01-19 17:23:08,684 | INFO | o.h.d.Dialect | [Time-limited test] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-01-19 17:23:09,781 | INFO | o.h.o.c.access | [Time-limited test] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@558ae4a7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-01-19 17:23:11,125 | WARN | o.h.o.deprecation | [Time-limited test] HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-01-19 17:23:11,729 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/testdb]
+2017-01-19 17:23:32,638 | INFO | o.h.Version | [Time-limited test] HHH000412: Hibernate Core {5.2.2.Final}
+2017-01-19 17:23:32,642 | INFO | o.h.c.Environment | [Time-limited test] HHH000206: hibernate.properties not found
+2017-01-19 17:23:32,644 | INFO | o.h.c.Environment | [Time-limited test] HHH000021: Bytecode provider name : javassist
+2017-01-19 17:23:33,175 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation Configuration loaded
+2017-01-19 17:23:33,188 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation serviceRegistry created
+2017-01-19 17:23:33,222 | INFO | o.h.a.c.Version | [Time-limited test] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-01-19 17:23:33,340 | WARN | o.h.o.c.pooling | [Time-limited test] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-01-19 17:23:33,348 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/testdb]
+2017-01-19 17:23:33,349 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001001: Connection properties: {user=postgres, password=****}
+2017-01-19 17:23:33,349 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001003: Autocommit mode: false
+2017-01-19 17:23:33,354 | INFO | o.h.e.j.c.i.DriverManagerConnectionProviderImpl | [Time-limited test] HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-01-19 17:23:33,915 | INFO | o.h.d.Dialect | [Time-limited test] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-01-19 17:23:34,932 | INFO | o.h.o.c.access | [Time-limited test] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@69e9d888] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-01-19 17:23:35,995 | WARN | o.h.o.deprecation | [Time-limited test] HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-01-19 17:23:36,891 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/testdb]
+2017-01-19 17:27:10,911 | INFO | o.h.Version | [Time-limited test] HHH000412: Hibernate Core {5.2.2.Final}
+2017-01-19 17:27:10,919 | INFO | o.h.c.Environment | [Time-limited test] HHH000206: hibernate.properties not found
+2017-01-19 17:27:10,924 | INFO | o.h.c.Environment | [Time-limited test] HHH000021: Bytecode provider name : javassist
+2017-01-19 17:27:11,527 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation Configuration loaded
+2017-01-19 17:27:11,539 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation serviceRegistry created
+2017-01-19 17:27:11,567 | INFO | o.h.a.c.Version | [Time-limited test] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-01-19 17:27:11,686 | WARN | o.h.o.c.pooling | [Time-limited test] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-01-19 17:27:11,709 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/testdb]
+2017-01-19 17:27:11,709 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001001: Connection properties: {user=postgres, password=****}
+2017-01-19 17:27:11,710 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001003: Autocommit mode: false
+2017-01-19 17:27:11,714 | INFO | o.h.e.j.c.i.DriverManagerConnectionProviderImpl | [Time-limited test] HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-01-19 17:27:12,332 | INFO | o.h.d.Dialect | [Time-limited test] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-01-19 17:27:13,356 | INFO | o.h.o.c.access | [Time-limited test] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@71dfe421] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-01-19 17:27:14,332 | WARN | o.h.o.deprecation | [Time-limited test] HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-01-19 17:27:14,938 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/testdb]
+2017-01-19 17:28:15,317 | INFO | o.h.Version | [Time-limited test] HHH000412: Hibernate Core {5.2.2.Final}
+2017-01-19 17:28:15,321 | INFO | o.h.c.Environment | [Time-limited test] HHH000206: hibernate.properties not found
+2017-01-19 17:28:15,323 | INFO | o.h.c.Environment | [Time-limited test] HHH000021: Bytecode provider name : javassist
+2017-01-19 17:28:15,865 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation Configuration loaded
+2017-01-19 17:28:15,883 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation serviceRegistry created
+2017-01-19 17:28:15,914 | INFO | o.h.a.c.Version | [Time-limited test] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-01-19 17:28:16,029 | WARN | o.h.o.c.pooling | [Time-limited test] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-01-19 17:28:16,052 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/testdb]
+2017-01-19 17:28:16,053 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001001: Connection properties: {user=postgres, password=****}
+2017-01-19 17:28:16,053 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001003: Autocommit mode: false
+2017-01-19 17:28:16,057 | INFO | o.h.e.j.c.i.DriverManagerConnectionProviderImpl | [Time-limited test] HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-01-19 17:28:16,827 | INFO | o.h.d.Dialect | [Time-limited test] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-01-19 17:28:17,831 | INFO | o.h.o.c.access | [Time-limited test] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4d25cb08] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-01-19 17:28:18,900 | WARN | o.h.o.deprecation | [Time-limited test] HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-01-19 17:28:19,511 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/testdb]
+2017-01-19 17:28:54,049 | INFO | o.h.Version | [Time-limited test] HHH000412: Hibernate Core {5.2.2.Final}
+2017-01-19 17:28:54,054 | INFO | o.h.c.Environment | [Time-limited test] HHH000206: hibernate.properties not found
+2017-01-19 17:28:54,057 | INFO | o.h.c.Environment | [Time-limited test] HHH000021: Bytecode provider name : javassist
+2017-01-19 17:28:54,595 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation Configuration loaded
+2017-01-19 17:28:54,609 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation serviceRegistry created
+2017-01-19 17:28:54,637 | INFO | o.h.a.c.Version | [Time-limited test] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-01-19 17:28:54,754 | WARN | o.h.o.c.pooling | [Time-limited test] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-01-19 17:28:54,775 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/testdb]
+2017-01-19 17:28:54,776 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001001: Connection properties: {user=postgres, password=****}
+2017-01-19 17:28:54,776 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001003: Autocommit mode: false
+2017-01-19 17:28:54,781 | INFO | o.h.e.j.c.i.DriverManagerConnectionProviderImpl | [Time-limited test] HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-01-19 17:28:55,284 | INFO | o.h.d.Dialect | [Time-limited test] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-01-19 17:28:56,422 | INFO | o.h.o.c.access | [Time-limited test] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55c46b85] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-01-19 17:28:57,651 | WARN | o.h.o.deprecation | [Time-limited test] HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-01-19 17:28:58,192 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/testdb]
+2017-01-19 17:35:39,462 | INFO | o.h.Version | [Time-limited test] HHH000412: Hibernate Core {5.2.2.Final}
+2017-01-19 17:35:39,469 | INFO | o.h.c.Environment | [Time-limited test] HHH000206: hibernate.properties not found
+2017-01-19 17:35:39,471 | INFO | o.h.c.Environment | [Time-limited test] HHH000021: Bytecode provider name : javassist
+2017-01-19 17:35:40,116 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation Configuration loaded
+2017-01-19 17:35:40,132 | INFO | c.a.h.u.HibernateUtil | [Time-limited test] Hibernate Annotation serviceRegistry created
+2017-01-19 17:35:40,167 | INFO | o.h.a.c.Version | [Time-limited test] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-01-19 17:35:40,316 | WARN | o.h.o.c.pooling | [Time-limited test] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-01-19 17:35:40,330 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/testdb]
+2017-01-19 17:35:40,331 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001001: Connection properties: {user=postgres, password=****}
+2017-01-19 17:35:40,332 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001003: Autocommit mode: false
+2017-01-19 17:35:40,347 | INFO | o.h.e.j.c.i.DriverManagerConnectionProviderImpl | [Time-limited test] HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-01-19 17:35:40,848 | INFO | o.h.d.Dialect | [Time-limited test] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-01-19 17:35:41,975 | INFO | o.h.o.c.access | [Time-limited test] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2c454b3a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-01-19 17:35:43,248 | WARN | o.h.o.deprecation | [Time-limited test] HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-01-19 17:35:43,731 | INFO | o.h.o.c.pooling | [Time-limited test] HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/testdb]
