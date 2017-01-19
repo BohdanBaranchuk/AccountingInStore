@@ -10,7 +10,17 @@ import static org.junit.Assert.*;
 
 
 /**
- * Created by bb on 19.01.2017.
+ *
+ * JUnit tests. Test the base the addition functionality of the class Product.
+ *
+ *
+ * @author  atom Earth
+ * @version 1.2
+ * @since   2017-01-13
+ *
+ * @see BaseTest
+ * @see TestRunner
+ * @see TestSuite
  */
 public class AdditionalTest {
 

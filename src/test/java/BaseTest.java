@@ -1,3 +1,4 @@
+import com.atom.hibernateSwing.MVC.View;
 import com.atom.hibernateSwing.dao.*;
 import com.atom.hibernateSwing.model.*;
 import com.atom.hibernateSwing.ProjectEnums.*;
@@ -16,8 +17,19 @@ import java.sql.SQLException;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
+
 /**
+ *
  * JUnit tests. Test the base functionality of the Hibernate CRUD operations.
+ *
+ *
+ * @author  atom Earth
+ * @version 1.2
+ * @since   2017-01-13
+ *
+ * @see AdditionalTest
+ * @see TestRunner
+ * @see TestSuite
  */
 public class BaseTest {
 
