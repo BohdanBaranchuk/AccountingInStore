@@ -35,7 +35,7 @@ public interface ProductsDAO {
     public void commitCurrentSession();
     public void rollback();
 
-    public void addProduct(Products products) throws SQLException;
+    public void addProduct(Products products,Supplier supplier) throws SQLException;
     public void saveOrUpdate(Products products) throws SQLException;
     public void updateProduct(Products products) throws SQLException;
     public void replicateProduct(Products products) throws SQLException;

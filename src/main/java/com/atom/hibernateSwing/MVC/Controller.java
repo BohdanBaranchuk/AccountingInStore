@@ -860,10 +860,11 @@ public class Controller{
                         }
                     }
 
+                    Supplier supplier = null;
                     if(!findSupplier)
                     {
                         if((viewAddFrame.getSelect_Supplier().getSelectedItem() != null) && (viewAddFrame.getSelect_Supplier().getSelectedItem().toString().length() > 0)) {
-                            Supplier supplier = new Supplier();
+                            supplier = new Supplier();
                             supplier.setName(viewAddFrame.getSelect_Supplier().getSelectedItem().toString());
 
                             if(viewAddFrame.getText_SupplierContacts().getText().length() > 0)
@@ -925,7 +926,7 @@ public class Controller{
                                 JOptionPane.ERROR_MESSAGE);
                     } else {       // save entity in DB
                         try {
-                            productsDAO.addProduct(newPr);
+                            productsDAO.addProduct(newPr,supplier);
                             productsDAO.commitCurrentSession();
 
                             // get new objects from DB for fill comboBoxes

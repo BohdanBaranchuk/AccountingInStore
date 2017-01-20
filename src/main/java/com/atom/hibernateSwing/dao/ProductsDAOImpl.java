@@ -133,8 +133,12 @@ public class ProductsDAOImpl implements ProductsDAO {
      * @param products the product that we want to save
      * @throws SQLException if something was wrong
      */
-    public void addProduct(Products products) throws SQLException
+    public void addProduct(Products products,Supplier supplier) throws SQLException
     {
+        if(supplier !=null)
+        {
+            session.save(supplier);
+        }
         session.save(products);
     }
 
