@@ -1898,11 +1898,13 @@ public class Controller{
 
         // fill comboBoxes
         view.getSelect_Color().removeAllItems();
+        view.getSelect_Color().addItem("Все");
         for (Object ob:model.getUniqueColor()) {
             view.getSelect_Color().addItem(ob);
         }
 
         view.getSelect_Type().removeAllItems();
+        view.getSelect_Type().addItem("Все");
         for (Object ob:model.getUniqueType()) {
             view.getSelect_Type().addItem(ob);
         }
